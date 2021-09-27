@@ -124,6 +124,10 @@ hr {
     color: var(--grey);
 }
 
+#hero-title{
+    color: var(--primary-color);
+}
+
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
@@ -173,5 +177,4 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-
 

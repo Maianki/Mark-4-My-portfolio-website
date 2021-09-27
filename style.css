@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
 :root {
-    --primary-color: #EA580C;
+    --primary-color: #1F2937;
     --off-white: #e6e6e6;
     --onyx: #3f3d56;
+    --orange: #ea580c;
+    --grey: #9CA3AF;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+
     font-family: 'Titillium Web', sans-serif;;
     margin: 0px auto;
     max-width: 85%;
@@ -46,7 +48,7 @@ hr {
     color: white;
     display: block;
     max-width: 140px;
-    margin: 0 auto;
+    margin: .6rem auto;
     border-radius: 5rem;
 }
 
@@ -98,6 +100,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /** header **/
@@ -118,7 +121,7 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--onyx);
+    color: var(--grey);
 }
 
 .hero .hero-heading .heading-inverted {
@@ -157,6 +160,11 @@ hr {
     color: white
 }
 
+.footer .link:hover{
+    background-color: white;
+    color:var(--primary-color);
+}
+
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
@@ -166,12 +174,4 @@ hr {
     padding-inline-start: 0px;
 }
 
-/** projects **/
-.showcase-list {
-    padding: 2rem;
-}
 
-/** blogs **/
-.showcase-blog {
-    padding-bottom: 6rem;
-}
